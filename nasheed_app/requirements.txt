@@ -1,0 +1,9 @@
+install virtual env
+pip install django 
+python manage.py makemigrations 
+python manage.py migrate
+
+
+default super user :
+                    user : wajid
+                    password : wajid12345

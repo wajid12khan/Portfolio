@@ -1,0 +1,26 @@
+{% include "navbar.html" %}
+{% load static %}
+{% block body %}
+<hr>
+<h2 class="text-center">About me</h2>
+<hr>
+<div class="container">
+<section class="hero row d-flex align-items-center">
+    <div class="col-md-6 order-md-2 px-0">
+        <img src="{% static 'images/1.png' %}" alt="My image"class="img-fluid rounded-circle mx-auto d-block" style="width: 700px; height:  650px;">
+    </div>
+    <div class="col-md-6 order-md-1 d-flex justify-content-center align-items-center text-center text-dark py-5">
+      <div class="container">
+        <h2>Assalam O Alaikum Warahmatullah !</h2>
+        <hr>
+        <h3>My name is " <b>AFZAL SULTAN</b> "</h3>
+        <hr>
+        <h5> I'm a student of Jamia Darul Uloom Karachi , <br>previously studied at Jamia Baitussalam Karachi ,<br>I am very passionate about art ; especially Nasheed Reciting <br> and Calligraphy. </h5>
+        <p class="lead">My vision is to give the Muslim World music free Nasheeds,<br> you are request to supporte me.</p>
+        <h4><b>Thanks alot 💝</b></h4>
+        <a href="/contact" class="btn btn-lg btn-primary">Contact me</a>
+      </div>
+    </div>
+  </section>
+</div>
+{% endblock  %}
